@@ -36,10 +36,10 @@ Following steps assume that the deployed version of Notifiable Workflow app in C
 
    - Deploy `wordcount-1.0.0.jar` in CDAP as a plugin.
     ```
-    curl -w"\n" -X POST "localhost:11015/v3/namespaces/default/artifacts/word-count-program"
-     -H 'Artifact-Plugins: [ { "name": "WordCount", "type": "sparkprogram", "className": "com.example.spark.JavaWordCount" }]'
-     -H "Artifact-Version: 1.0.0"
-     -H "Artifact-Extends: system:cdap-notifiable-workflow[1.0.0, 1.0.0]"
+    curl -w"\n" -X POST "localhost:11015/v3/namespaces/default/artifacts/word-count-program" \
+     -H 'Artifact-Plugins: [ { "name": "WordCount", "type": "sparkprogram", "className": "com.example.spark.JavaWordCount" }]' \
+     -H "Artifact-Version: 1.0.0" \
+     -H "Artifact-Extends: system:cdap-notifiable-workflow[1.0.0, 1.0.0]" \
      --data-binary @<path-to-wordcount-1.0.0.jar>
     ```
 
@@ -93,10 +93,10 @@ Following steps assume that the deployed version of Notifiable Workflow app in C
 
    - Deploy `sparkpi-1.0.0.jar` in CDAP as a plugin.
     ```
-    curl -w"\n" -X POST "localhost:11015/v3/namespaces/default/artifacts/sparkpi-program"
-     -H 'Artifact-Plugins: [ { "name": "SparkPi", "type": "sparkprogram", "className": "com.example.spark.SparkPi" }]'
-     -H "Artifact-Version: 1.0.0"
-     -H "Artifact-Extends: system:cdap-notifiable-workflow[1.0.0, 1.0.0]"
+    curl -w"\n" -X POST "localhost:11015/v3/namespaces/default/artifacts/sparkpi-program" \
+     -H 'Artifact-Plugins: [ { "name": "SparkPi", "type": "sparkprogram", "className": "com.example.spark.SparkPi" }]' \
+     -H "Artifact-Version: 1.0.0" \
+     -H "Artifact-Extends: system:cdap-notifiable-workflow[1.0.0, 1.0.0]" \
      --data-binary @<path-to-sparkpi-1.0.0.jar>
     ```
 
