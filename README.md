@@ -2,7 +2,8 @@
 This repo contains two example spark apps that can run on Apache Spark. 
   - word-count-java: contains word count example written in Java 
   - sparkpi-scala: contains sparkpi example written in Scala
-This wiki documents steps to run these standard examples on directly on Spark and using CDAP without any code change
+
+Notes below have steps to run these standard examples on directly on Spark and using CDAP without any code change
   
   
 ## Running examples directly on Spark
