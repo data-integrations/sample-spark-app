@@ -43,7 +43,7 @@ This repo contains two example spark apps that can run on vanilla spark without 
    
    
 ## References 
-      - Notifiable workflow app https://github.com/caskdata/cdap-notifiable-workflow-app
+1. Notifiable workflow app https://github.com/caskdata/cdap-notifiable-workflow-app
       
 ## Mailing Lists
 
@@ -55,11 +55,6 @@ The *cdap-user* mailing list is primarily for users using the product to develop
 applications or building plugins for appplications. You can expect questions from 
 users, release announcements, and any other discussions that we think will be helpful 
 to the users.
-
-## IRC Channel
-
-CDAP IRC Channel: #cdap on irc.freenode.net
-
 
 ## License and Trademarks
 
