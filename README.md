@@ -25,9 +25,10 @@ This repo contains two example spark apps that can run on vanilla spark without 
    cd word-count-java
    mvn clean package
    ``` 
-   - Deploy the spark jar 
+   - Deploy 
+      - Add plugin
       - Create a CDAP App 
-      - Run the example
+   - Run 
    
 2. Spark Pi 
    - Package 
@@ -36,7 +37,7 @@ This repo contains two example spark apps that can run on vanilla spark without 
    mvn clean package
    ``` 
    - Deploy 
-      - Create plugin 
+      - Add plugin 
       - Create CDAP App
    - Run  
    
