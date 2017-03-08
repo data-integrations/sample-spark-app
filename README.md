@@ -1,9 +1,11 @@
 ## About
-This repo contains two example spark apps that can run on vanilla spark without using CDAP. 
+This repo contains two example spark apps that can run on Apache Spark. 
   - word-count-java: contains word count example written in Java 
   - sparkpi-scala: contains sparkpi example written in Scala
+This wiki documents steps to run these standard examples on directly on Spark and using CDAP without any code change
   
-## Usage with Vanilla Spark
+  
+## Running examples directly on Spark
 
 1. Word Count
    - Package 
@@ -18,7 +20,7 @@ This repo contains two example spark apps that can run on vanilla spark without 
     - Deploy 
     - Run
  
-## Running the Spark Examples with CDAP without any code change
+## Running examples using CDAP without any code change
 1. Word Count 
    - Package  
    ```
