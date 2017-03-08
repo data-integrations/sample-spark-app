@@ -1,0 +1,31 @@
+*.class
+.*.swp
+.beamer
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Intellij Files & Dir #
+.idea
+*.iml
+*.ipr
+*.iws
+atlassian-ide-plugin.xml
+out/
+.DS_Store
+./lib/
+.idea/misc.xml
+
+# Gradle Files & Dir #
+build/
+.gradle/
+.stickyStorage
+.build/
+target/
+
+# Node log
+npm-*.log
+logs/
+.nux_enabled
+.nux_dashboard
